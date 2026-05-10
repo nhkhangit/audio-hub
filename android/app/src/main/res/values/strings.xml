@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">MyAudioHub</string>
+    <string name="title_activity_main">MyAudioHub</string>
+    <string name="package_name">com.myaudiohub.app</string>
+    <string name="custom_url_scheme">com.myaudiohub.app</string>
+</resources>
