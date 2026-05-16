@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Download, Music, Play, Pause, Trash2, Library, FileAudio, Video, Edit2, Check, X, AlertCircle, HelpCircle } from 'lucide-react';
 import { Filesystem, Directory } from '@capacitor/filesystem';
 import { Toast } from '@capacitor/toast';
-import { Capacitor } from '@capacitor/core';
+import { Capacitor, CapacitorHttp } from '@capacitor/core';
 import './App.css';
 
 function App() {
@@ -160,7 +160,8 @@ function App() {
         responseType: 'blob'
       });
 
-      const fileName = `${title.replace(/[^\w\s-]/gi, '')}.mp3`;
+      const safeTitle = title.replace(/[^\w\s-]/gi, '').substring(0, 50);
+      const fileName = `${safeTitle}_${Date.now()}.mp3`;
 
       await Filesystem.writeFile({
         path: fileName,
