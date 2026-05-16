@@ -72,6 +72,16 @@ MyAudioHub is built on the principle of **"Essentialism"**. We believe that your
 
 ---
 
+## ⚖️ Legal Disclaimer
+
+MyAudioHub is an open-source project intended for **educational and personal use only**. 
+
+- **Compliance**: Users are responsible for complying with the Terms of Service of any third-party platforms (such as YouTube and TikTok) from which they download content.
+- **Copyright**: We do not encourage or condone the downloading of copyrighted material without permission from the respective owners. Please respect the intellectual property rights of content creators.
+- **Liability**: The developers of MyAudioHub are not responsible for any misuse of this software or for any actions taken by users that violate platform policies or local laws.
+
+---
+
 ## 📜 License
 
 This project is private and for personal use.
